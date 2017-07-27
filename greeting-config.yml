@@ -1,13 +1,5 @@
 security:
   basic:
-    enabled: false # turn off securing our application endpoints
-
-management:
-  security:
-    enabled: false # turn off securing the actuator endpoints
-
-security:
-  basic:
     enabled: false
 
 management:
@@ -21,3 +13,5 @@ logging: # <----New sections below
 
 greeting:
   displayFortune: false
+
+quoteServiceURL: http://quote-service-dev.cfapps.io/quote
